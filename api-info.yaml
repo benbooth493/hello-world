@@ -3,10 +3,6 @@ kind: API
 metadata:
   name: todo-api
   description: Simple Go API
-  labels:
-    system: web-apps
-  tags:
-    - go
   links:
     - url: https://github.com/benbooth493/hello-world
       title: Simple Go API Github
