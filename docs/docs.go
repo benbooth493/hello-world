@@ -165,8 +165,8 @@ var SwaggerInfo = &swag.Spec{
 	Host:             "localhost:8080",
 	BasePath:         "/",
 	Schemes:          []string{},
-	Title:            "Go + Gin Todo API",
-	Description:      "This is a sample server todo server. You can visit the GitHub repository at https://github.com/LordGhostX/swag-gin-demo",
+	Title:            "Todo list API",
+	Description:      "This is a sample server todo server.",
 	InfoInstanceName: "swagger",
 	SwaggerTemplate:  docTemplate,
 }
