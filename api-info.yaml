@@ -1,17 +1,19 @@
 apiVersion: backstage.io/v1beta1
-kind: Component
+kind: API
 metadata:
   name: hello-world
-  description: Simple Go service
+  description: Simple Go API
   labels:
     system: web-apps
   tags:
     - go
   links:
     - url: https://github.com/benbooth493/hello-world
-      title: Simple Go Service Github
+      title: Simple Go API Github
       icon: code
 spec:
-  type: service
+  type: openapi
   lifecycle: experimental
   owner: ben
+  definition:
+    $text: https://github.com/benbooth493/hello-world/blob/main/docs/swagger.json
