@@ -15,5 +15,5 @@ spec:
   type: service
   lifecycle: experimental
   owner: ben
-  providesApi:
+  providesApis:
     - todo-api
