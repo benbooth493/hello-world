@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1beta1
 kind: Component
 metadata:
-  name: hello-world
+  name: todo-service
   description: Simple Go service
   labels:
     system: web-apps
@@ -15,3 +15,5 @@ spec:
   type: service
   lifecycle: experimental
   owner: ben
+  providesApi:
+    - todo-api

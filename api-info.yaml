@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1beta1
 kind: API
 metadata:
-  name: hello-world
+  name: todo-api
   description: Simple Go API
   labels:
     system: web-apps
