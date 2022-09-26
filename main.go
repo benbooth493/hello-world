@@ -107,9 +107,9 @@ func deleteTodo(c *gin.Context) {
 	c.JSON(http.StatusNotFound, r)
 }
 
-// @title Go + Gin Todo API
+// @title Todo list API
 // @version 1.0
-// @description This is a sample server todo server. You can visit the GitHub repository at https://github.com/LordGhostX/swag-gin-demo
+// @description This is a sample server todo server.
 
 // @contact.name API Support
 // @contact.url http://www.swagger.io/support
