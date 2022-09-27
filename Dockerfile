@@ -13,4 +13,5 @@ RUN CGO_ENABLED=0 GOOS=${TARGETOS} GOARCH=${TARGETARCH} go build -ldflags="-w -s
 FROM --platform=${TARGETPLATFORM:-linux/amd64} scratch
 WORKDIR /app/
 COPY --from=builder /app/main /app/main
+EXPOSE 8080
 ENTRYPOINT ["/app/main"]
