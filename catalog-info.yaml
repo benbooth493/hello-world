@@ -8,7 +8,7 @@ metadata:
   annotations:
     backstage.io/kubernetes-id: todo
     github.com/project-slug: benbooth493/projects/1
-    argocd/app-name: default/todo
+    argocd/app-name: todo
   tags:
     - go
   links:
