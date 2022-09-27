@@ -50,7 +50,7 @@ spec:
     - http:
         paths:
           - pathType: Prefix
-            path: "/todo"
+            path: "/"
             backend:
               service:
                 name: todo
