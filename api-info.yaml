@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1beta1
 kind: API
 metadata:
-  name: todo-api
+  name: todo
   description: Simple Go API
   links:
     - url: https://github.com/benbooth493/hello-world

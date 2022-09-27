@@ -5,6 +5,8 @@ metadata:
   description: Simple Go service
   labels:
     system: web-apps
+  annotations:
+    backstage.io/kubernetes-id: todo
   tags:
     - go
   links:
