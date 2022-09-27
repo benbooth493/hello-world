@@ -19,4 +19,4 @@ spec:
   lifecycle: experimental
   owner: ben
   providesApis:
-    - todo-api
+    - todo
