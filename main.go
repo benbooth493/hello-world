@@ -118,7 +118,7 @@ func deleteTodo(c *gin.Context) {
 // @license.name MIT
 // @license.url https://opensource.org/licenses/MIT
 
-// @host localhost:8080
+// @host 0.0.0.0:8080
 // @BasePath /
 // @query.collection.format multi
 
@@ -132,5 +132,5 @@ func main() {
 	// docs route
 	router.GET("/docs/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 
-	router.Run()
+	router.Run("0.0.0.0:8080")
 }
